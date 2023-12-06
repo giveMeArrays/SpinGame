@@ -2,8 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
+body{
+    background-color: rgb(160, 160, 160);
+}
 
 .wheelCon {
     display: flex;
@@ -31,7 +35,23 @@
 }
 
 .spinButton{
-    width: 50%;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+}
+
+label{
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.spinButton:hover{
+    transition-duration: 500ms;
+    background-color: rgb(80, 187, 80);
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {
